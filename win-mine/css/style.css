@@ -1,0 +1,44 @@
+html,body{width: 100%; }
+body{height:100%;color:#333;border-top:1px solid transparent;margin: 0; padding: 0; font:12px/1.5 "Arial","Microsoft YaHei UI";}
+ul,div{overflow: hidden;}
+ul,li,div,span,input,a{ padding: 0; margin:0; text-decoration: none; list-style: none; outline: 0; border:0;}
+
+/*gamebox*/
+.gamebox{ width: 800px; text-align: center;overflow: hidden; margin:20px auto; position: relative; }
+.title{font-size: 18px; font-weight: bold; height: 30px; line-height: 30px; width:100%;}
+.gamebutton{width: 799px; border-right:1px solid #333333;}
+.gamebutton li{cursor:pointer;width:180px;height: 22px; display: inline-block;float: left; line-height: 22px; border: 1px solid #333333;
+    border-right:0; }
+.gamebutton li.on{ background-color: #ff5000; color: #fff;}
+.gamebutton li:hover{ background-color:#cccccc;}
+.gamebutton li.clock{ cursor: unset;width: 255px;}
+.gamebutton li.clock:hover{ background-color:#fff;}
+.gamebutton li input{ text-align: center; display: inline-block; width:30px; height: 18px; background-color: wheat;margin:2px 10px 2px 20px;}
+
+.game-message{ height: 22px; border: 1px solid #333; border-top:0; }
+.game-message input{ cursor: pointer; vertical-align:7px; margin-left:20px;text-align: center; display: inline-block; width:50px; height: 18px; background-color: wheat;margin-right: 130px}
+.game-message .reset{ cursor: pointer; color:#fff;background-color: #ff5000; display: inline-block; width:160px; height: 18px; margin:2px 10px;}
+.game-message label{vertical-align: 7px;}
+
+.game-area{ height:500px; border: 1px solid #333; border-top:0; position:relative; }
+.slide{width: 100%; height:1500px;position:absolute;top:0;left:0;}
+.slide ul li{ cursor:pointer;}
+.easy{width:423px;height: 423px; border-left:1px solid #488ee7;margin:38px auto 56px; border-bottom:1px solid #488ee7; }
+.easy li{ background-color: #2222cc; width: 46px; height:46px; border-right:1px solid #488ee7; border-top:1px solid #488ee7;
+float: left; line-height: 46px; text-align: center;  }
+.usual{width:464px;height: 464px; border-left:1px solid #488ee7;margin:18px auto 68px; border-bottom:1px solid #488ee7;}
+.usual li{ background-color: #2222cc; width: 28px; height:28px; border-right:1px solid #488ee7; border-top:1px solid #488ee7;
+    float: left; line-height: 28px; text-align: center;  }
+.hard{width:750px;height: 400px; border-left:1px solid #488ee7;margin:50px auto; border-bottom:1px solid #488ee7;}
+.hard li{ background-color: #2222cc; width: 24px; height:24px; border-right:1px solid #488ee7; border-top:1px solid #488ee7;
+    float: left; line-height: 24px; text-align: center;  }
+
+.slide ul li.safe{ background:#fff;}
+.slide ul li.mine{ background: url("../img/mine.jpg") center center no-repeat;background-size:28px 28px;}
+.slide ul li.flag{ background: url("../img/flag.jpg") center center no-repeat;background-size:28px 28px;}
+
+/*.usual ul li.mine{ background: url("img/mine.jpg") 0 0 no-repeat;background-size:28px 28px;}
+.hard ul li.mine{ background: url("img/mine.jpg") 0 0 no-repeat;background-size:24px 24px;}
+.easy ul li.flag{ background: url("img/flag.jpg") 0 0 no-repeat;background-size:46px 46px;}
+.usual ul li.flag{ background: url("img/flag.jpg") 0 0 no-repeat;background-size:28px 28px;}
+.hard ul li.flag{ background: url("img/flag.jpg") 0 0 no-repeat;background-size:24px 24px;}*/
